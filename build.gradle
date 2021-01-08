@@ -1,0 +1,39 @@
+plugins {
+	id 'org.springframework.boot' version '2.1.1.RELEASE'
+	id 'io.spring.dependency-management' version '1.0.10.RELEASE'
+	id 'java'
+}
+
+group = 'com.products'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '11'
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+
+	compileOnly 'org.projectlombok:lombok'
+	testCompileOnly 'org.projectlombok:lombok'
+	annotationProcessor 'org.projectlombok:lombok'
+	testAnnotationProcessor 'org.projectlombok:lombok'
+
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	implementation("org.springframework.boot:spring-boot-starter-actuator")
+	implementation group: 'ch.qos.logback', name: 'logback-core', version: '1.2.3'
+	implementation group: 'ch.qos.logback', name: 'logback-access', version: '1.2.3'
+	implementation group: 'net.logstash.logback', name: 'logstash-logback-encoder', version: '6.1'
+	implementation group: 'ch.qos.logback', name: 'logback-classic', version: '1.2.3'
+	implementation group: 'org.apache.tomcat.embed', name: 'tomcat-embed-core', version: '9.0.35'
+	compile group: 'commons-io', name: 'commons-io', version: '2.6'
+	compile group: 'org.springframework.boot', name: 'spring-boot-starter-data-mongodb'
+	implementation 'junit:junit:4.12'
+
+}
+test {
+	useJUnitPlatform()
+}

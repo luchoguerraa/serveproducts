@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "brand": "ooy eqrceliaaa",
+    "description": "rlñlw brhrkaxyz",
+    "image": "www.lider.cl/catalogo/images/whiteLineIcon.svg",
+    "price": 498724,
+    "discount" : true
+  },
+  {
+    "id": 2,
+    "brand": "dsaasdaaa",
+    "description": "zlrwax bñyrhxyz",
+    "image": "www.lider.cl/catalogo/images/babyIcon.svg",
+    "price": 130173,
+    "discount" : true
+  },
+  {
+    "id": 3,
+    "brand": "weñxoabaaa",
+    "description": "hqhoy qacirkxyz",
+    "image": "www.lider.cl/catalogo/images/homeIcon.svg",
+    "price": 171740,
+    "discount" : true
+  },
+  {
+    "id": 4,
+    "brand": "sjlzxeoaaa",
+    "description": "pnyn rlxbewnkxyz",
+    "image": "www.lider.cl/catalogo/images/computerIcon.svg",
+    "price": 890348,
+    "discount" : true
+  },
+  {
+    "id": 5,
+    "brand": "peuoooyptaaa",
+    "description": "trcwl iagxxhxyz",
+    "image": "www.lider.cl/catalogo/images/whiteLineIcon.svg",
+    "price": 814893,
+    "discount" : true
+  }
+]

@@ -1,0 +1,28 @@
+com/products/controllers/ProductsController.java
+ com.products.controllers.ProductsController
+com/products/domain/dto/Product.java
+ com.products.domain.dto.Product
+ com.products.domain.dto.Product$ProductBuilder
+com/products/data/UseCaseProductsRepositoryImpl.java
+ com.products.data.UseCaseProductsRepositoryImpl
+com/products/domain/UseCaseProducts.java
+ com.products.domain.UseCaseProducts
+com/products/domain/filters/FilterByProducts.java
+ com.products.domain.filters.FilterByProducts
+com/products/exceptions/ExceptionHandlerInterceptor.java
+ com.products.exceptions.ExceptionHandlerInterceptor
+com/products/domain/mappers/ProductsMapper.java
+ com.products.domain.mappers.ProductsMapper
+com/products/domain/respository/ProductsRepository.java
+ com.products.domain.respository.ProductsRepository
+com/products/exceptions/GlobalException.java
+ com.products.exceptions.GlobalException
+com/products/ServerProductsApplication.java
+ com.products.ServerProductsApplication
+com/products/config/CorsConfig.java
+ com.store.products.config.CorsConfig
+com/products/data/repository/RepositoryDB.java
+ com.products.data.repository.RepositoryDB
+com/products/data/entities/ProductEntity.java
+ com.products.data.entities.ProductEntity
+ com.products.data.entities.ProductEntity$ProductEntityBuilder

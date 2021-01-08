@@ -1,0 +1,18 @@
+com/products/tools/MockProducts.java
+ com.products.tools.MockProducts
+com/products/domian/UseCaseProductsTest.java
+ com.products.domian.UseCaseProductsTest
+com/products/tools/FileResource.java
+ com.products.tools.FileResource
+com/products/domian/filters/FilterByProductsTest.java
+ com.products.domian.filters.FilterByProductsTest
+com/products/integrationTest/controllers/ProductsControllerIntegrationTest.java
+ com.products.integrationTest.controllers.ProductsControllerIntegrationTest
+com/products/integrationTest/mocks/UseCaseProductsRepositoryMock.java
+ com.products.integrationTest.mocks.UseCaseProductsRepositoryMock
+com/products/domian/mapper/ProductsMapperTest.java
+ com.products.domian.mapper.ProductsMapperTest
+com/products/controllers/ProductsControllerTest.java
+ com.products.controllers.ProductsControllerTest
+com/products/data/UseCaseProductsRepositoryImplTest.java
+ com.products.data.UseCaseProductsRepositoryImplTest

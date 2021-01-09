@@ -13,7 +13,7 @@ public class CorsConfig implements WebMvcConfigurer {
 
         registry.addMapping("/**")
               .allowedOrigins(
-                        "http://localhost:4100","http://localhost:8080","https://store-products-web.herokuapp.com")
+                        "http://localhost:4100","http://localhost:3000","http://localhost:8080","https://store-products-web.herokuapp.com")
                 .allowedMethods("GET", "POST", "PUT", "DELETE", "HEAD")
                 .allowCredentials(true);
     }
